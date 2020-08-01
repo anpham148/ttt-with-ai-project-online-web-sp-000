@@ -32,6 +32,7 @@ require_relative '../lib/game'
   end
 
   new_game
+  def asking_another_game
   puts "Would you like to play again? Y/N"
   input2 = gets.strip
     if input2 == "Y"
