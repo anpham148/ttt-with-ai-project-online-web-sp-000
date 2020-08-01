@@ -35,6 +35,6 @@ require_relative '../lib/game'
   puts "Would you like to play again? Y/N"
   input2 = gets.strip
     if input2 == "Y"
-      new_game until "N"
+      new_game until input2 = "N"
 
      end
