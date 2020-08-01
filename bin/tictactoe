@@ -38,7 +38,7 @@ require_relative '../lib/game'
       if input2 == "Y"
          new_game
       else
-        break
+        exit
       end
   end
 
