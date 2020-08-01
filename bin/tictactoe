@@ -51,5 +51,3 @@ require_relative '../lib/game'
        else
        break
        end
-
-  asking_another_game
