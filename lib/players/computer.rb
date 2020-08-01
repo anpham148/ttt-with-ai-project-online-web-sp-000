@@ -27,7 +27,7 @@ module Players
     end
 
     def combination_to_play
-      WIN_COMBINATIONS.select {|x| x.include?(@computer_move.last)}
+      WIN_COMBINATIONS.select {|x| x.include?(@computer_move)}
 
     end
 
