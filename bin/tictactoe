@@ -34,4 +34,8 @@ require_relative '../lib/game'
   new_game
   puts "Would you like to play again? Y/N"
   input2 = gets.strip
-  new_game until input2 == "N"
+    if input2 == "Y"
+      new_game
+    elsif input2 == "N"
+
+     end
