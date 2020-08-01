@@ -36,5 +36,4 @@ require_relative '../lib/game'
   input2 = gets.strip
     if input2 == "Y"
       new_game until input2 == "N"
-
      end
