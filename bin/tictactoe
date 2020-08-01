@@ -43,4 +43,13 @@ require_relative '../lib/game'
   end
 
   new_game
+  while true
+    puts "Would you like to play again? Y/N"
+    input2 = gets.strip
+    if input2 == "Y"
+       new_game
+       else
+       break
+       end
+
   asking_another_game
